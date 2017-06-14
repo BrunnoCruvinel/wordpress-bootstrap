@@ -5,8 +5,8 @@ define("FACEBOOK", "yourFacebookURL");
 define("TWITTER", "yourTwitterURL");
 
 // DEFAULT PATH
-define("DOMAIN", site_url()."/");
-define("FILES", bloginfo('template_directory')."/");
+define("DOMAIN", get_site_url()."/");
+define("FILES", "template_directory");
 
 
 // SHORTCUTE
